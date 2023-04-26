@@ -344,6 +344,7 @@ main {
     bottom: 0;
 }
 .modal .cerrar-modal {
+    z-index: 2;
     position: absolute;
     right: 3rem;
     top: 3rem;
@@ -365,6 +366,7 @@ main {
     transition-duration: 300ms;
     transition-timing-function: ease-in;
     opacity: 0;
+    z-index: 1;
 }
 .modal label {
     color: var(--blanco);
